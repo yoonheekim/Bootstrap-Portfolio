@@ -91,48 +91,10 @@ body {
         width: 100%;
         height: auto;
     }
-    .header{
-        width:100%;
-    }
-    .mainbox{
-        width: 100%;
-    }
-}
-/*
-
-@media screen and (min-width: 768px) and (max-width: 991.98px){
-    .mainbox{
-        width: 700px;
-        justify-content: flex-start;
-    }
-
-}*/
-
-
-
-/*
-nav {
-  float: right;
-  margin-top: 25px;
+    
 }
 
-nav a {
-  padding-left: 15px;
-  margin-left: 15px;
-  line-height: 18px;
-  color: #999;
-  text-decoration: none;
-  border-left: 1px solid #efefef;
-  font-size: 14px;
-}
 
-nav a:first-child {
-  border-left: 0 none;
-}
-.nav-link{
-  display: inline-block;
-  padding:0 0 0 20px;
-}
 
 /* Sticky footer styles
 -------------------------------------------------- */
