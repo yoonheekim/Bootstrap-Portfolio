@@ -1,0 +1,150 @@
+*{
+    margin: 0px;;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html {
+    position: relative;
+    min-height: 100%;
+  }
+body {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 200%;
+    margin-bottom: 60px; /* Margin bottom by footer height */
+ 
+}
+.header{
+    background-color: #ffffff;
+    border-bottom: 1px solid #cccccc;
+}
+.h2{
+    color: white;
+    background-color: #4aaaa5;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    float: left;
+    
+    
+}
+.main_Header{
+    border-bottom: 3px solid #dddd;
+}
+
+.h3{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+}
+.game {
+    position: relative;
+    padding-bottom: 20px;
+    
+}
+
+
+
+.game p{
+    position: absolute;
+    background-color: #4aaaa5;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0px;
+    color: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 20px;
+    bottom: 20px;
+}
+.game > img{
+    width:100%;
+}
+
+.navbar-nav li{
+    font-size: 14px;
+}
+
+
+.nav-item a{
+  text-decoration: none;
+  color: #777777;
+  /*border-right: 1px solid #cccccc;*/
+  padding: 0px 20px;
+}
+#last{
+    border-right: none;
+    padding-right: 0;
+}
+.navbar a:hover {
+  color: #4aaaa5;
+}
+
+.btn{
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+
+
+@media screen and (max-width: 767.98px){
+    
+    .img-fluid {
+        width: 100%;
+        height: auto;
+    }
+    .header{
+        width:100%;
+    }
+    .mainbox{
+        width: 100%;
+    }
+}
+/*
+
+@media screen and (min-width: 768px) and (max-width: 991.98px){
+    .mainbox{
+        width: 700px;
+        justify-content: flex-start;
+    }
+
+}*/
+
+
+
+/*
+nav {
+  float: right;
+  margin-top: 25px;
+}
+
+nav a {
+  padding-left: 15px;
+  margin-left: 15px;
+  line-height: 18px;
+  color: #999;
+  text-decoration: none;
+  border-left: 1px solid #efefef;
+  font-size: 14px;
+}
+
+nav a:first-child {
+  border-left: 0 none;
+}
+.nav-link{
+  display: inline-block;
+  padding:0 0 0 20px;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px; /* Set the fixed height of the footer here */
+    /*line-height: 60px; /* Vertically center the text there */
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+    /*padding-top: 10px;*/
+    
+  }
